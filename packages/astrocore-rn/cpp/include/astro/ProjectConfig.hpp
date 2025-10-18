@@ -1,0 +1,17 @@
+#pragma once
+
+#ifndef ASTRO_MAX_STARS
+#define ASTRO_MAX_STARS 65536
+#endif
+
+#ifndef ASTRO_USE_REFRACTION
+#define ASTRO_USE_REFRACTION 1
+#endif
+
+#ifndef ASTRO_DEFAULT_FOV_DEG
+#define ASTRO_DEFAULT_FOV_DEG 60.0
+#endif
+
+#ifndef ASTRO_RINGBUFFER_STRIDE
+#define ASTRO_RINGBUFFER_STRIDE 4
+#endif
