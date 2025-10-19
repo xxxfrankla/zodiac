@@ -1,0 +1,42 @@
+apply plugin: 'com.android.library'
+
+android {
+  namespace "com.astrocore"
+  compileSdkVersion 34
+
+  defaultConfig {
+    minSdkVersion 21
+    targetSdkVersion 34
+    ndkVersion "26.1.10909125"
+    externalNativeBuild {
+      cmake {
+        arguments "-DANDROID_STL=c++_shared"
+      }
+    }
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+    }
+    debug {
+      debuggable true
+    }
+  }
+
+  externalNativeBuild {
+    cmake {
+      path file("CMakeLists.txt")
+      version "3.22.1"
+    }
+  }
+
+  packagingOptions {
+    pickFirst "**/*.so"
+  }
+}
+
+dependencies {
+  implementation "com.facebook.react:react-android"
+}
