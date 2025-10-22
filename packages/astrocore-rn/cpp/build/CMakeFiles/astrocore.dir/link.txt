@@ -1,0 +1,2 @@
+/usr/bin/ar qc libastrocore.a CMakeFiles/astrocore.dir/src/engine.cpp.o CMakeFiles/astrocore.dir/src/time.cpp.o CMakeFiles/astrocore.dir/src/transform.cpp.o CMakeFiles/astrocore.dir/src/vector.cpp.o
+/usr/bin/ranlib libastrocore.a

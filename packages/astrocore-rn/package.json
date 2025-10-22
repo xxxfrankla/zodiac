@@ -1,0 +1,38 @@
+{
+  "name": "@astrocore/rn",
+  "version": "0.1.0",
+  "description": "React Native bindings for the AstroCore C++ engine via JSI.",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/index.d.ts",
+  "react-native": "lib/module/index.js",
+  "source": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf lib cpp/build",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "prepare": "yarn build",
+    "test": "cmake -S cpp -B cpp/build && cmake --build cpp/build && ctest --test-dir cpp/build --output-on-failure"
+  },
+  "keywords": [
+    "react-native",
+    "jsi",
+    "astro",
+    "zero-copy"
+  ],
+  "homepage": "https://example.com/astrocore",
+  "repository": {
+    "type": "git",
+    "url": "https://example.com/astrocore.git"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.71"
+  },
+  "devDependencies": {
+    "@react-native/tsconfig": "^1.0.0",
+    "eslint": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}

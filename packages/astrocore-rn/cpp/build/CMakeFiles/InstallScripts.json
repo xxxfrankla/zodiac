@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/franksun/zodiac/packages/astrocore-rn/cpp/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

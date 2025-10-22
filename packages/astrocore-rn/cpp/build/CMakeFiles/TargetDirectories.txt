@@ -1,0 +1,7 @@
+/Users/franksun/zodiac/packages/astrocore-rn/cpp/build/CMakeFiles/astrocore.dir
+/Users/franksun/zodiac/packages/astrocore-rn/cpp/build/CMakeFiles/test_time.dir
+/Users/franksun/zodiac/packages/astrocore-rn/cpp/build/CMakeFiles/test_transform.dir
+/Users/franksun/zodiac/packages/astrocore-rn/cpp/build/CMakeFiles/test_engine.dir
+/Users/franksun/zodiac/packages/astrocore-rn/cpp/build/CMakeFiles/test.dir
+/Users/franksun/zodiac/packages/astrocore-rn/cpp/build/CMakeFiles/edit_cache.dir
+/Users/franksun/zodiac/packages/astrocore-rn/cpp/build/CMakeFiles/rebuild_cache.dir
